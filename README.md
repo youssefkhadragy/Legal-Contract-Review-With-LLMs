@@ -73,7 +73,7 @@ Allows users to identify key clauses/concepts in a contract with Gemini LLM thro
 ### 4. Revise Contract with Gemini LLM
 Allows users to get revision suggestions for contracts with Gemini LLM through Google API.
 
-#### cURL Command (To be used with Insomnia only using "Send and Download"):
+#### cURL Command:
 ```bash
     curl -X POST http://127.0.0.1:8000/revise-contract-llm/ -F "file=@C: CONTRACT_PATH"
   ```
