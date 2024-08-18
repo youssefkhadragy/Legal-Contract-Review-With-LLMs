@@ -1,8 +1,8 @@
-# Backend Contract Review System
+# Contract Review System
 
 This project is a backend contract review system designed to process and analyze contract documents. 
 The system provides various features, including contract uploading, key clauses/concpets identification (using logical pattern matching and LLMs), 
-contract revisons suggestions and suggested revisions integration. The features were tested using Insomnia API Client which can be downloaded [here](https://insomnia.rest/download). The following cURL commands were integrated with insomnia for testing (which is the recommended way of testing), however, they can be run from a terminal if cURL is downloaded. To test, run the contract_review.py file and then run the cURL commands after replacing CONTRACT_PATH with the actual contract path (PDF or DOCX files only).
+contract revisons suggestions and suggested revisions integration. The features were tested using Insomnia API Client which can be downloaded [here](https://insomnia.rest/download). The following cURL commands were integrated with insomnia for testing (which is the recommended way of testing), however, they can be run from a terminal if cURL is downloaded. To test, run the contract_review.py file and then run the cURL commands after replacing CONTRACT_PATH with the actual contract path (PDF or DOCX files only). Don't forget to replace the "GOOGLE_API_KEY" with your Google API Key. 
 
 
 ## Features

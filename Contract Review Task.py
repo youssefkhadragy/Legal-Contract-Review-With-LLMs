@@ -64,7 +64,7 @@ CLAUSE_PATTERNS = {
 
 
 # Google API key for Generative AI
-GOOGLE_API_KEY = "AIzaSyDWpKGai4Ou-3nc5BnMHeC9Qq-CCLBP5-A"
+GOOGLE_API_KEY = "GOOGLE_API_KEY"
 
 # Configure the Generative AI with the API key
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -219,6 +219,7 @@ def apply_revisions_to_docx(docx_content: bytes, revisions: dict) -> bytes:
             if original_text in paragraph.text:
                 paragraph.text = paragraph.text.replace(original_text, revised_text)
                 continue
+            
         for run in paragraph.runs:
             
             # Apply revisions by replacing original text with revised text
